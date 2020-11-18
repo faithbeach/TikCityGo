@@ -1,0 +1,7 @@
+spring:
+  datasource:
+      url: jdbc:mysql://176.148.3.254:13306/example?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: root
+mybatis:
+   mapperLocations: classpath:/mapper/*.xml
